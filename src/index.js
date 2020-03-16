@@ -19,5 +19,6 @@ markerDomEl.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
 
 new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map); // [-87.641, 41.895] for Chicago
 
+// Test for new marker:
 const marker = buildMarker("activities", [-74.009151, 40.705086]); // or [-87.6354, 41.8885]
 marker.addTo(map);
