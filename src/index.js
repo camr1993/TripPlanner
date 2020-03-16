@@ -22,3 +22,7 @@ new mapboxgl.Marker(markerDomEl).setLngLat([-74.009, 40.705]).addTo(map); // [-8
 // Test for new marker:
 const marker = buildMarker("activities", [-74.009151, 40.705086]); // or [-87.6354, 41.8885]
 marker.addTo(map);
+
+// Test for new marker 2:
+const marker2 = buildMarker("hotels", [-74.0093, 40.7052]); // or [-87.6354, 41.8885]
+marker2.addTo(map);
